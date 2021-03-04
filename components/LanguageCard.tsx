@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "../styles/Home.module.css";
+import styles from "../styles/LanguageCard.module.css";
 
 type Props = {
   language: string;

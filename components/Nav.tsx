@@ -7,9 +7,7 @@ import navStyles from "../styles/Nav.module.css";
 
 const Nav = () => {
   return (
-    <nav className={navStyles.nav}>
-
-    </nav>
+    <nav className={navStyles.nav}></nav>
     // <AppBar>
     //   <Toolbar>
     //     <Button color="inherit">

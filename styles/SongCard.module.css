@@ -1,0 +1,17 @@
+.songCard {
+  height: 240px;
+  /* width: 160px; */
+  /* margin: auto; */
+  background-color: #fff;
+  border-radius: 8px;
+  margin: 12px 16px;
+  box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.08), 1px 0px 1px rgba(0, 0, 0, 0.08),
+    -1px 0px 1px rgba(0, 0, 0, 0.08), 0px 1px 1px rgba(0, 0, 0, 0.08);
+  transition: 1s;
+}
+
+.songCard:hover {
+  box-shadow: 0px 12px 16px -4px rgba(0, 0, 0, 0.75);
+  transform: scale(1.1);
+  transition: 1s;
+}
