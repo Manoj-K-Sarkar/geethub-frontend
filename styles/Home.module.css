@@ -10,7 +10,8 @@
 .leftPanel {
   /* background-color: red; */
   /* height: fit-content; */
-  margin-top: 24px;
+  /* margin-top: 24px; */
+  margin: 10px;
   border-radius: 8px;
   background-color: #fff;
   overflow: hidden;
@@ -20,8 +21,10 @@
 
 .midPanel {
   margin: 0 8px;
+  /* margin: 20px; */
   overflow: scroll;
-  padding-top: 24px;
+  margin-bottom: 0px;
+  /* padding-top: 24px; */
   /* border-radius: 8px; */
   /* background-color: #fff; */
   /* box-shadow: 0px -1px 1px rgba(0,0,0,0.08),1px 0px 1px rgba(0,0,0,0.08),-1px 0px 1px rgba(0,0,0,0.08),0px 1px 1px rgba(0,0,0,0.08);; */
@@ -39,7 +42,7 @@
 }
 
 .midRight {
-  padding-top: 50px;
+  padding-top: 100px;
 }
 /* 
 .midLeft div:nth-child(even),
@@ -52,58 +55,8 @@
 } */
 
 .rightPanel {
-  margin-top: 24px;
+  /* margin-top: 24px; */
+  margin: 10px;
   background-color: white;
   border-radius: 12px;
-}
-
-.languageCard {
-  height: 48px;
-  width: 240px;
-
-  margin-bottom: 4px;
-  padding-left: 32px;
-  /* border-radius: 0 8px 8px 0; */
-  display: flex;
-  align-items: center;
-  /* background-color: #0a3b68b2; */
-  /* border-left: 2px solid white; */
-  background: linear-gradient(90deg, #00131b 0%, #013850 24px);
-  box-shadow: -2px 2px 2px 0px rgba(0, 0, 0, 0.75);
-
-  color: #fff;
-  text-shadow: 2px 2px 3px black;
-  font-size: 24px;
-  font-weight: normal;
-  letter-spacing: 1.5px;
-}
-
-.languageCard:hover {
-  color: black;
-  font-weight: bold;
-  text-shadow: none;
-  box-shadow: none;
-  background: none;
-  background-color: #01385025;
-  border-radius: none;
-  /* background: linear-gradient(270deg, #fff 0%, #0a3b68b2 24px); */
-  /* box-shadow: inset 0px 2px 4px 4px white; */
-}
-
-.songCard {
-  height: 240px;
-  /* width: 160px; */
-  /* margin: auto; */
-  background-color: #fff;
-  border-radius: 8px;
-  margin: 12px 16px;
-  box-shadow: 0px -1px 1px rgba(0, 0, 0, 0.08), 1px 0px 1px rgba(0, 0, 0, 0.08),
-    -1px 0px 1px rgba(0, 0, 0, 0.08), 0px 1px 1px rgba(0, 0, 0, 0.08);
-  transition: 1s;
-}
-
-.songCard:hover {
-  box-shadow: 0px 12px 16px -4px rgba(0, 0, 0, 0.75);
-  transform: scale(1.1);
-  transition: 1s;
 }
