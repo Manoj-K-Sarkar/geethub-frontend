@@ -1,3 +1,149 @@
+:root {
+  /** primary **/
+  --primary: #3880ff;
+  --primary-rgb: 56, 128, 255;
+  --primary-contrast: #ffffff;
+  --primary-contrast-rgb: 255, 255, 255;
+  --primary-shade: #3171e0;
+  --primary-tint: #4c8dff;
+
+  /** secondary **/
+  --secondary: #3dc2ff;
+  --secondary-rgb: 61, 194, 255;
+  --secondary-contrast: #ffffff;
+  --secondary-contrast-rgb: 255, 255, 255;
+  --secondary-shade: #36abe0;
+  --secondary-tint: #50c8ff;
+
+  /** tertiary **/
+  --tertiary: #5260ff;
+  --tertiary-rgb: 82, 96, 255;
+  --tertiary-contrast: #ffffff;
+  --tertiary-contrast-rgb: 255, 255, 255;
+  --tertiary-shade: #4854e0;
+  --tertiary-tint: #6370ff;
+
+  /** success **/
+  --success: #2dd36f;
+  --success-rgb: 45, 211, 111;
+  --success-contrast: #ffffff;
+  --success-contrast-rgb: 255, 255, 255;
+  --success-shade: #28ba62;
+  --success-tint: #42d77d;
+
+  /** warning **/
+  --warning: #ffc409;
+  --warning-rgb: 255, 196, 9;
+  --warning-contrast: #000000;
+  --warning-contrast-rgb: 0, 0, 0;
+  --warning-shade: #e0ac08;
+  --warning-tint: #ffca22;
+
+  /** danger **/
+  --danger: #eb445a;
+  --danger-rgb: 235, 68, 90;
+  --danger-contrast: #ffffff;
+  --danger-contrast-rgb: 255, 255, 255;
+  --danger-shade: #cf3c4f;
+  --danger-tint: #ed576b;
+
+  /** dark **/
+  --dark: #222428;
+  --dark-rgb: 34, 36, 40;
+  --dark-contrast: #ffffff;
+  --dark-contrast-rgb: 255, 255, 255;
+  --dark-shade: #1e2023;
+  --dark-tint: #383a3e;
+
+  /** medium **/
+  --medium: #92949c;
+  --medium-rgb: 146, 148, 156;
+  --medium-contrast: #ffffff;
+  --medium-contrast-rgb: 255, 255, 255;
+  --medium-shade: #808289;
+  --medium-tint: #9d9fa6;
+
+  /** light **/
+  --light: #f4f5f8;
+  --light-rgb: 244, 245, 248;
+  --light-contrast: #000000;
+  --light-contrast-rgb: 0, 0, 0;
+  --light-shade: #d7d8da;
+  --light-tint: #f5f6f9;
+}
+
+@media (prefers-color-scheme: dark) {
+  /*
+   * Dark Colors
+   * -------------------------------------------
+   */
+
+  body {
+    --primary: #428cff;
+    --primary-rgb: 66, 140, 255;
+    --primary-contrast: #ffffff;
+    --primary-contrast-rgb: 255, 255, 255;
+    --primary-shade: #3a7be0;
+    --primary-tint: #5598ff;
+
+    --secondary: #50c8ff;
+    --secondary-rgb: 80, 200, 255;
+    --secondary-contrast: #ffffff;
+    --secondary-contrast-rgb: 255, 255, 255;
+    --secondary-shade: #46b0e0;
+    --secondary-tint: #62ceff;
+
+    --tertiary: #6a64ff;
+    --tertiary-rgb: 106, 100, 255;
+    --tertiary-contrast: #ffffff;
+    --tertiary-contrast-rgb: 255, 255, 255;
+    --tertiary-shade: #5d58e0;
+    --tertiary-tint: #7974ff;
+
+    --success: #2fdf75;
+    --success-rgb: 47, 223, 117;
+    --success-contrast: #000000;
+    --success-contrast-rgb: 0, 0, 0;
+    --success-shade: #29c467;
+    --success-tint: #44e283;
+
+    --warning: #ffd534;
+    --warning-rgb: 255, 213, 52;
+    --warning-contrast: #000000;
+    --warning-contrast-rgb: 0, 0, 0;
+    --warning-shade: #e0bb2e;
+    --warning-tint: #ffd948;
+
+    --danger: #ff4961;
+    --danger-rgb: 255, 73, 97;
+    --danger-contrast: #ffffff;
+    --danger-contrast-rgb: 255, 255, 255;
+    --danger-shade: #e04055;
+    --danger-tint: #ff5b71;
+
+    --dark: #f4f5f8;
+    --dark-rgb: 244, 245, 248;
+    --dark-contrast: #000000;
+    --dark-contrast-rgb: 0, 0, 0;
+    --dark-shade: #d7d8da;
+    --dark-tint: #f5f6f9;
+
+    --medium: #989aa2;
+    --medium-rgb: 152, 154, 162;
+    --medium-contrast: #000000;
+    --medium-contrast-rgb: 0, 0, 0;
+    --medium-shade: #86888f;
+    --medium-tint: #a2a4ab;
+
+    --light: #222428;
+    --light-rgb: 34, 36, 40;
+    --light-contrast: #ffffff;
+    --light-contrast-rgb: 255, 255, 255;
+    --light-shade: #1e2023;
+    --light-tint: #383a3e;
+  }
+}
+
 html,
 body {
   padding: 0;

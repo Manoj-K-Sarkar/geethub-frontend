@@ -1,10 +1,9 @@
 import Link from "next/link";
-import LanguageCard from "../components/LanguageCard.jsx";
-import SongCard from "../components/SongCard.jsx";
+import LanguageCard from "../components/LanguageCard";
+import SongCard from "../components/SongCard";
 import styles from "../styles/Home.module.css";
 
 const IndexPage = () => (
-  // <Layout title="Home | Next.js + TypeScript Example">
   <main className={styles.home}>
     <div className={styles.leftPanel}>
       <LanguageCard language="English" />
